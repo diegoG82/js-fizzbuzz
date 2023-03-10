@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: black;
+    border:5px solid black;
+width:1200px;
+    margin: 0 auto;
+}
+
+h1{
+   text-align: center;
+   color: white;
+   font-size: 5rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+.colred, .colblue, .colyellow, .colgreen{
+    width: calc(100% / 5);
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+   justify-content: center;
+   height:100px;
+}
+
+span{
+    line-height: 100px;
+    font-size: 2rem;
+    color: whitesmoke;
+   
+}
+
+.colred{
+    background-color:red;
+    border:2px solid black;
+}
+.colblue{
+    background-color: blue;
+    border:2px solid black;
+}
+.colyellow{
+    background-color: goldenrod;
+    border:2px solid black;
+}
+
+.colgreen{
+    background-color: green;
+    border:2px solid black;
+}
+
+
