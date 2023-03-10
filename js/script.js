@@ -15,21 +15,25 @@
 //  **BONUS 2:**
 //  Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 
-
 // MILESTONE 1
 
 
-for (let i = 1; i <= 100; i++){
-    console.log (i);
+let fizzgame;
 
-    if (i % 15 === 0){
-        console.log("fizzbuzz");
-    }
+for (let i = 1; i <= 100; i++) {
 
-    else if (i % 5 === 0){
-        console.log("Buzz")
-    }
+  if (i % 15 === 0) {
+    fizzgame="fizzbuzz";
 
-    else if (i % 3 === 0)
-    console.log ("Fizz")
+  } else if (i % 5 === 0) {
+    fizzgame="buzz";
+
+  } else if (i % 3 === 0){
+    fizzgame="fizz";
+
+  } else {
+    fizzgame = i;   
+  }
+    console.log(fizzgame);
 }
+
